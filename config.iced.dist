@@ -1,0 +1,14 @@
+
+exports.config =
+  email :
+    from :
+      name : "Daily Burn Mailer"
+      email : "themax@gmail.com"
+    to :
+      name : "Max Krohn"
+      email : "themax@gmail.com"
+    subject : "%w %d-%m-%y -- Daily Burn" 
+  amazon_ses :
+    user : "daily-burn"
+    access_key_id : "AK...."
+    secret_access_key : "F..."
