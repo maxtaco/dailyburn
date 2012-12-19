@@ -2,13 +2,17 @@
 exports.config =
   email :
     from :
-      name : "Daily Burn Mailer"
-      email : "themax@gmail.com"
+      name : "Max Krohn's Daily Burn"
+      email : "themax+ses@gmail.com"
     to :
       name : "Max Krohn"
       email : "themax@gmail.com"
-    subject : "%w %d-%m-%y -- Daily Burn" 
+    reply:
+      name : "Max Krohn's Daily Burn"
+      email : "themax+archive@gmail.com"
+    subject : "%w %y-%m-%d --- Daily Burn" 
   amazon :
-    user : "daily-burn"
-    access_key_id : "AK...."
-    secret_access_key : "F..."
+    ses :
+      user : "daily-burn"
+      access_key_id : "AK...."
+      secret_access_key : "F..."
