@@ -8,7 +8,7 @@ exports.config =
       name : "Max Krohn"
       email : "themax@gmail.com"
     subject : "%w %d-%m-%y -- Daily Burn" 
-  amazon_ses :
+  amazon :
     user : "daily-burn"
     access_key_id : "AK...."
     secret_access_key : "F..."
